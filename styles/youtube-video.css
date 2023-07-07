@@ -6,3 +6,22 @@
 .thumbnail{
   width: 100%;
 }
+
+.channel-info{
+  display: flex;
+  flex-direction: row;
+}
+
+.channel-picture-container{
+  width: 50px;
+}
+
+.channel-picture{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.video-info-container{
+  flex: 1;
+}
