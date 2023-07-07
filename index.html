@@ -4,24 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Youtube Clone</title>
+
   <link rel="stylesheet" href="./styles/youtube-general.css" type="text/css">
   <link rel="stylesheet" href="./styles/youtube-header.css" type="text/css">
   <link rel="stylesheet" href="./styles/youtube-sidebar.css" type="text/css">
   <link rel="stylesheet" href="./styles/youtube-video.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="header">
     <div class="left-section">
-      
+      <img src="./icons/hamburger-menu.svg" alt="" class="hamburger-icon">
+      <img src="./icons/youtube-logo.svg" alt="" class="youtube-logo">
     </div>
     <div class="middle-section">
-
+      <input type="text" placeholder="Search" class="search-bar">
+      <button class="search-button">
+        <img src="./icons/search.svg" alt="" class="search-icon">
+      </button>
+      <button class="voice-search-button">
+        <img src="./icons/voice-search-icon.svg" alt="" class="voice-search-icon">
+      </button>
     </div>
     <div class="right-section">
-
+      <img src="./icons/upload.svg" alt="" class="upload-icon">
+      <img src="./icons/youtube-apps.svg" alt="" class="youtube-apps-icon">
+      <img src="./icons/notifications.svg" alt="" class="notifications-icon">
+      <img src="./channel-pictures/my-channel.jpeg" alt="" class="my-channel-picture">
     </div>
   </header>
   <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="./icons/home.svg" alt="" class="home-icon">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icons/explore.svg" alt="" class="explore-icon">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icons/subscriptions.svg" alt="" class="subscriptions-icon">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icons/originals.svg" alt="" class="originals-icon">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icons/youtube-music.svg" alt="" class="youtube-music-icon">
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icons/library.svg" alt="" class="library-icon">
+      <div>Library</div>
+    </div>
 
   </nav>
   <main class="video-grid">

@@ -2,8 +2,31 @@
   background-color: aquamarine;
   position: absolute;
   z-index: 101;
-  top: 55px;
+  top: 57px;
   left: 0;
   bottom: 0;
   width: 72px;
+  font-size: 10px;
+  justify-content: center;
+  white-space: nowrap;
 }
+
+.sidebar img{
+  width: 25px;
+  margin-bottom: 8px;
+}
+
+.sidebar-link{
+  padding: 15px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+.sidebar-link:hover{
+  background-color: gray;
+}
+
+
+
