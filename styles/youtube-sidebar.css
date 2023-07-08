@@ -1,6 +1,6 @@
 .sidebar{
-  background-color: aquamarine;
-  position: absolute;
+  background-color: white;
+  position: fixed;
   z-index: 101;
   top: 57px;
   left: 0;
@@ -25,7 +25,7 @@
   
 }
 .sidebar-link:hover{
-  background-color: gray;
+  background-color: rgb(236, 236, 236);
 }
 
 
